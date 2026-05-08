@@ -1,31 +1,42 @@
 # Ganesh Medicals - Inventory & Sales Optimization
 
-Business analytics project analyzing 65,000+ retail pharmacy transactions to identify revenue optimization opportunities.
+Business analytics capstone analyzing 65,000+ retail pharmacy transactions to identify ₹11 lakh in revenue optimization opportunities.
 
 ## Problem Statement
 - Inventory inefficiency and expiry-linked losses
-- Seasonal demand misalignment
+- Seasonal demand misalignment  
 - Supplier procurement variability
 
+## Project Timeline
+This was a semester-long capstone project with iterative deliverables:
+- **Proposal:** Problem identification and analytical approach
+- **Midterm Report:** Preliminary analysis and initial findings
+- **Final Report:** Complete analysis with business recommendations
+
 ## Approach
-- **Data Analysis:** 65K sales records + 6K procurement records
-- **Techniques:** ABC Analysis, Seasonality Detection, Supplier Dependency Evaluation
-- **Tools:** Python (Pandas, NumPy), Excel, Matplotlib
+- **Data:** 65K sales records + 6K procurement records
+- **Techniques:** ABC Analysis, Seasonality Detection, Trend Analysis, Supplier Evaluation
+- **Tools:** Python (Pandas, NumPy, Matplotlib), Excel
 
 ## Key Findings
-- **Revenue Concentration:** ~20% products contribute ~80% revenue (ABC Analysis)
-- **Revenue Leakage:** 0.43% stockouts, 2.75% returns identified
-- **Supplier Risk:** 48% dependency on top 3 suppliers
-- **Seasonality:** Identified demand patterns for procurement optimization
+- **Revenue Concentration:** ~20% products contribute ~80% revenue (Pareto principle)
+- **Revenue Leakage:** 0.43% stockouts, 2.75% returns
+- **Supplier Risk:** 48% dependency concentration in top 3 suppliers
+- **Demand Patterns:** Seasonal trends identified for procurement optimization
 
 ## Business Impact
-- **Projected Savings:** ₹11 lakh annually through optimized inventory management
-- **Recommendations:** Implemented procurement timing adjustments, supplier diversification strategy
+**Projected Annual Savings: ₹11 lakh**
+- Optimized inventory levels reducing holding costs
+- Improved procurement timing based on seasonal demand
+- Supplier diversification strategy reducing risk
 
-## Files
-- `BDM_Report.pdf` - Complete business analytics reports
-- `Presentation.pdf` - Executive summary slides
-- `analysis.ipynb` - Data analysis notebook (if available)
+## Repository Structure
+**reports/**
+├── 01_proposal.pdf           # Initial problem definition
+├── 02_midterm_report.pdf     # Preliminary analysis
+└── 03_final_report.pdf       # Complete findings & recommendations
+presentation/
+└── final_presentation.pdf    # Executive summary slides
 
 ## Skills Demonstrated
-Python • Pandas • Data Analysis • Business Intelligence • ABC Analysis • Excel • Data Visualization
+Python • Pandas • NumPy • Data Analysis • Business Intelligence • ABC Analysis • Statistical Analysis • Excel • Data Visualization • Business Strategy
